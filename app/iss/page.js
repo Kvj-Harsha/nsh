@@ -28,12 +28,12 @@ export default function Home() {
 
   return (
     <div className='bg-[#111827] text-white'>
-      <Navbar2/>
+      <Navbar2 />
       <ISSCoordinates latitude={coordinates.latitude} longitude={coordinates.longitude} />
       <ISSMap latitude={coordinates.latitude} longitude={coordinates.longitude} />
-      <Features/>
-      <Redireect/>
-      <Footer/>
+      <Features />
+      <Redireect />
+      <Footer />
     </div>
   );
 }
