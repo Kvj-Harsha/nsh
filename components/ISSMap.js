@@ -3,7 +3,7 @@
 import { MapContainer, TileLayer, Marker, Polyline } from 'react-leaflet';
 import L from 'leaflet';
 import 'leaflet/dist/leaflet.css';
-import { useState, useEffect } from 'react';
+
 
 // Define the custom icon
 const customIcon = new L.Icon({
@@ -14,7 +14,7 @@ const customIcon = new L.Icon({
 });
 
 const ISSMap = ({ latitude, longitude }) => {
-  const [positions, setPositions] = useState([]);
+
 
   return (
     <MapContainer
@@ -37,5 +37,6 @@ const ISSMap = ({ latitude, longitude }) => {
     
   );
 };
+
 
 export default ISSMap;

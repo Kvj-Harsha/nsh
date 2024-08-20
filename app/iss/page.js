@@ -10,6 +10,7 @@ import Footer from '@/components/Footer';
 import Redireect from '@/components/Redireect';
 
 
+
 export default function Home() {
   const [coordinates, setCoordinates] = useState({ latitude: 0, longitude: 0 });
 
