@@ -1,13 +1,15 @@
-import Comingsoon from '@/components/Comingsoon'
 import Footer from '@/components/Footer'
+import Imghero from '@/components/Imghero'
 import Navbar2 from '@/components/Navbar2'
+import Showimg from '@/components/Showimg'
 import React from 'react'
 
 const page = () => {
   return (
     <div>
       <Navbar2/>
-      <Comingsoon/>
+      {/* <Showimg/> */}
+      <Imghero/>
       <Footer/>
     </div>
   )
