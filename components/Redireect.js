@@ -15,14 +15,14 @@ const Redireect = () => {
       </div>
 
       <div className="lg:py-24">
-        <h2 className="text-3xl text-white font-bold sm:text-4xl">Satellite Image Classification</h2>
+        <h2 className="text-3xl text-white font-bold sm:text-4xl">Crater Detection</h2>
 
         <p className="mt-4 text-white">
-          Check out our ML model on space data image classfication using tensorflow, OpenCv, Nnumpy, Pandas, Matplotlib, PIL. Click the below link.   
+          Check out our ML model on crater detection using image classfication using OpenCv, Numpy, Pandas, Matplotlib. Click the below link.   
         </p>
 
         <a
-          href="/img-class"
+          href="/crater"
           className="mt-8 inline-block rounded bg-indigo-600 px-12 py-3 text-sm font-medium text-white transition hover:bg-indigo-700 focus:outline-none focus:ring focus:ring-yellow-400"
         >
           Spacial Image Classification

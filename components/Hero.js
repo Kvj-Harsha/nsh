@@ -1,6 +1,6 @@
 import React from 'react'
 
-const Hero = () => {
+const   Hero = () => {
   return (
     <div>
       <section className="bg-gray-900 text-white">
@@ -15,15 +15,15 @@ const Hero = () => {
       </h1>
 
       <p className="mx-auto mt-4 max-w-xl sm:text-xl/relaxed">
-        Browse through the two projects of "Satellite image classification using tensor flow" and "Live Location of ISS with graphical representation usgin OpenNotify API"
+        Browse through the two projects of "Satellite image classification using tensor flow" and "Live Location of ISS with graphical representation using OpenNotify API"
       </p>
 
       <div className="mt-8 flex flex-wrap justify-center gap-4">
         <a
           className="block w-full rounded border border-blue-600 bg-blue-600 px-12 py-3 text-sm font-medium text-white hover:bg-transparent hover:text-white focus:outline-none focus:ring active:text-opacity-75 sm:w-auto"
-          href="/img-class"
+          href="/crater"
         >
-          Image Classification
+          Crater Detection
         </a>
 
         <a
