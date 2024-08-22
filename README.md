@@ -1,36 +1,96 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# 🚀 Next.js Project with Crater Detection and Live ISS Location Tracking 🌕🛰️
 
-## Getting Started
+Welcome to the Next.js project that showcases two exciting sub-projects:
 
-First, run the development server:
+1. **Crater Detection** 🌕🪐
+2. **Live ISS Location Tracking** 🚀🛰️
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+## 🛠️ Project Overview
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+### 1. Crater Detection 🌕🪐
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+This sub-project is dedicated to detecting and analyzing craters on the surfaces of the Moon and other planetary bodies. By identifying these craters, we gain valuable insights into the history and geological activity of celestial bodies.
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+#### Features
 
-## Learn More
+- **🌍 Multi-Planetary Analysis**: Detects craters on the Moon, Mars, and Mercury for comparative analysis.
+- **🤖 Automated Crater Detection**: Identifies and marks craters in high-resolution images using advanced image processing and machine learning techniques.
+- **🔗 Data Integration**: Supports data from spacecraft imagery and satellite data for comprehensive analysis.
+- **🎯 High Accuracy Bounding Boxes**: Highlights the exact location and size of craters with precise bounding boxes.
+- **📊 Crater Size Distribution Analysis**: Analyzes crater size distribution to provide insights into impact history and surface age.
+- **📑 Data Export and Reporting**: Generates detailed reports and visual summaries, which can be exported for further study or presentation.
 
-To learn more about Next.js, take a look at the following resources:
+### 2. Live ISS Location Tracking 🚀🛰️
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+This sub-project provides real-time tracking and visualization of the International Space Station (ISS) using Leaflet on a Next.js website.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+#### Features
 
-## Deploy on Vercel
+- **🌐 Open Notify API**: Accesses real-time ISS coordinates.
+- **🗺️ Interactive Map**: Displays the ISS’s trajectory on an interactive Leaflet map.
+- **🔄 OpenCage Reverse Geocoding**: Converts coordinates into human-readable location information.
+- **📈 Dynamic Polyline**: Draws the ISS’s trajectory on the map using a dynamic polyline.
+- **⏱️ Real-time Visualization**: Updates the map in real-time based on the latest trajectory data.
+- **🔢 Coordinate Conversion**: Converts raw orbital coordinates to latitude and longitude for accurate mapping.
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+## 🚀 Installation
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+To set up the project locally, follow these steps:
+
+1. **Clone the Repository**
+   ```bash
+   git clone https://github.com/your-username/your-repository.git
+
+## 📂 Usage
+
+### 🌋 Crater Detection
+- Navigate to the `crater-detection` directory to run analysis scripts and view results.
+- Follow the provided instructions in that directory to start your crater detection journey.
+
+### 🛰️ ISS Location Tracking
+- Visit the `live-iss-location` directory to see the real-time ISS tracking map.
+- The `ISSMap` component uses **Leaflet** to display the ISS's trajectory on an interactive map.
+
+## 🤝 Contributing
+
+Contributions are welcome! If you'd like to contribute to this project, please follow these guidelines:
+
+1. **Fork the Repository**: Create your own fork of the repository.
+2. **Create a New Branch**: Create a new branch for your changes.
+
+    ```bash
+    git checkout -b your-feature-branch
+    ```
+
+3. **Make Your Changes**: Implement your changes or improvements.
+4. **Commit Your Changes**: Commit your changes with a clear message.
+
+    ```bash
+    git commit -m "Add feature or fix issue"
+    ```
+
+5. **Push to Your Fork**: Push your changes to your forked repository.
+
+    ```bash
+    git push origin your-feature-branch
+    ```
+
+6. **Open a Pull Request**: Submit a pull request to the original repository.
+
+## 📜 License
+
+This project is licensed under the **MIT License**. See the [LICENSE](LICENSE) file for details.
+
+## 🙏 Acknowledgments
+
+- **Next.js**: For the powerful React framework that powers this project.
+- **Leaflet**: For providing an excellent mapping library for interactive maps.
+- **Open Notify API**: For offering real-time ISS coordinates.
+- **OpenCage**: For reverse geocoding services to convert coordinates into readable locations.
+
+## 🧩 Additional Information
+
+- **For Crater Detection**: Detailed documentation and scripts are available in the `crater-detection` directory.
+- **For ISS Location Tracking**: Instructions and components are available in the `live-iss-location` directory.
+
+Feel free to explore, contribute, and provide feedback. Enjoy working with these exciting technologies and features! 🚀🌕🛰️
