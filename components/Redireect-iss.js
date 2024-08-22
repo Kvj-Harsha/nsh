@@ -1,6 +1,7 @@
 import React from 'react'
+import Gitbut from './Gitbut'
 
-const Redireect = () => {
+const Redireecti = () => {
   return (
     <div>
     
@@ -9,17 +10,17 @@ const Redireect = () => {
       <div className="relative h-64 overflow-hidden rounded-lg sm:h-80 lg:order-last lg:h-full">
         <img
           alt=""
-          src="moon1.jpg"
+          src="iss.jpg"
           className="absolute inset-0 h-full w-full object-cover"
         />
       </div>
 
       <div className="lg:py-24">
-        <h2 className="text-3xl text-white font-bold sm:text-4xl">Crater Detection</h2>
+        <h2 className="text-3xl text-white font-bold sm:text-4xl">Live ISS Location</h2>
 
         <p className="mt-4 text-white">
-          Check out our ML model on crater detection using image classfication using OpenCv, Numpy, Pandas, Matplotlib. Click the below link.   
-        </p>
+        This sub-project provides real-time tracking and visualization of the International Space Station (ISS) using Leaflet on a Next.js website
+          </p>
 
         <a
           href="/crater"
@@ -30,8 +31,9 @@ const Redireect = () => {
       </div>
     </div>
   </div>
+  <Gitbut className="bg-red-500" href="https://github.com/Kvj-Harsha/nsh" />
     </div>
   )
 }
 
-export default Redireect
+export default Redireecti

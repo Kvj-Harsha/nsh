@@ -5,6 +5,7 @@ import Stats from './Stats'
 import Preimg2 from './Preimg2'
 import TechStack from './TechStack'
 import GoogleColabButton from './GoogleColabButton'
+import Gitbut from './Gitbut'
 
 const Imghero2 = () => {
   return (

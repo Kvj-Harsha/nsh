@@ -13,17 +13,20 @@ const customIcon = L.icon({
 
 const ISSMap = ({ latitude, longitude }) => {
   return (
+    <div className='px-10'>
+
     <MapContainer
       center={[latitude, longitude]}
       zoom={3}
       style={{ height: '500px', width: '100%' }}
-    >
+      >
       <TileLayer
         url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png"
         attribution='&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
-      />
+        />
       <Marker position={[latitude, longitude]} icon={customIcon} />
     </MapContainer>
+        </div>
   );
 };
 

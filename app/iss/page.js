@@ -10,6 +10,7 @@ import Footer from '@/components/Footer';
 import Redireect from '@/components/Redireect';
 import Live from '@/components/Live';
 import TechStack2 from '@/components/TechStack2';
+import Gitbut from '@/components/Gitbut';
 
 export default function Home() {
   const [coordinates, setCoordinates] = useState({ latitude: 0, longitude: 0 });
@@ -37,6 +38,7 @@ export default function Home() {
       <Features />
       <TechStack2/> 
       <Redireect />
+      <Gitbut href="https://github.com/Kvj-Harsha/nsh" />
       <Footer />
     </div>
   );

@@ -1,6 +1,6 @@
 import React from 'react'
 
-const Navbar2 = () => {
+const Navbar = () => {
   return (
     <div>
       <header className="bg-white dark:bg-gray-900">
@@ -21,7 +21,8 @@ const Navbar2 = () => {
       <div className="md:flex md:items-center md:gap-12">
         <nav aria-label="Global" className="hidden md:block">
           <ul className="flex items-center gap-6 text-sm">
-            <li>
+          
+          <li>
               <a
                 className="text-gray-500 transition hover:text-gray-500/75 dark:text-white dark:hover:text-white/75"
                 href="/"
@@ -33,34 +34,25 @@ const Navbar2 = () => {
             <li>
               <a
                 className="text-gray-500 transition hover:text-gray-500/75 dark:text-white dark:hover:text-white/75"
-                href="#"
+                href="https://www.linkedin.com/in/kvjharsha/"
               >
-                Careers
+                About
               </a>
             </li>
 
             <li>
               <a
                 className="text-gray-500 transition hover:text-gray-500/75 dark:text-white dark:hover:text-white/75"
-                href="#"
+                href="Hackathon.pdf"
               >
-                History
+                Problem Statement
               </a>
             </li>
 
             <li>
               <a
                 className="text-gray-500 transition hover:text-gray-500/75 dark:text-white dark:hover:text-white/75"
-                href="#"
-              >
-                Services
-              </a>
-            </li>
-
-            <li>
-              <a
-                className="text-gray-500 transition hover:text-gray-500/75 dark:text-white dark:hover:text-white/75"
-                href="#"
+                href="https://github.com/Kvj-Harsha/"
               >
                 Projects
               </a>
@@ -69,7 +61,7 @@ const Navbar2 = () => {
             <li>
               <a
                 className="text-gray-500 transition hover:text-gray-500/75 dark:text-white dark:hover:text-white/75"
-                href="#"
+                href="https://www.linkedin.com/in/kvjharsha/"
               >
                 Blog
               </a>
@@ -77,26 +69,7 @@ const Navbar2 = () => {
           </ul>
         </nav>
 
-        <div className="flex items-center gap-4">
-          
-
-          <div className="block md:hidden">
-            <button
-              className="rounded bg-gray-100 p-2 text-gray-600 transition hover:text-gray-600/75 dark:bg-gray-800 dark:text-white dark:hover:text-white/75"
-            >
-              <svg
-                xmlns="http://www.w3.org/2000/svg"
-                className="size-5"
-                fill="none"
-                viewBox="0 0 24 24"
-                stroke="currentColor"
-                strokeWidth="2"
-              >
-                <path strokeLinecap="round" strokeLinejoin="round" d="M4 6h16M4 12h16M4 18h16" />
-              </svg>
-            </button>
-          </div>
-        </div>
+  
       </div>
     </div>
   </div>
@@ -105,4 +78,4 @@ const Navbar2 = () => {
   )
 }
 
-export default Navbar2
+export default Navbar
