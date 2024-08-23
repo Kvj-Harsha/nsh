@@ -7,7 +7,13 @@ const Live = () => {
         Live Updates
       </h1>
       <div className="flex justify-center gap-4">
-        <div className="w-1/2">
+        <div className="w-1/3">
+        <center>
+        <blockquote class="twitter-tweet" data-theme="dark">
+          <p lang="en" dir="ltr">Microbial buildup, known as biofilms, could become problematic on future deep space missions. Biologists study biofilms to innovative ways to prevent microbial spread both on Earth and in space.<br/><br/>Listen to the Small Steps, Giant Leaps podcast for more: <a href="https://t.co/QrsoDbAyuL">https://t.co/QrsoDbAyuL</a> <a href="https://t.co/vgNxVYCVrI">pic.twitter.com/vgNxVYCVrI</a></p>&mdash; ISS Research (@ISS_Research) <a href="https://twitter.com/ISS_Research/status/1826686272959906229?ref_src=twsrc%5Etfw">August 22, 2024</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+        </center>
+        </div>
+        <div className="w-1/3">
         <center>
           <blockquote className="twitter-tweet" data-theme="dark">
             <p lang="en" dir="ltr">
@@ -16,7 +22,7 @@ const Live = () => {
           </blockquote>
         </center>
         </div>
-        <div className="w-1/2">
+        <div className="w-1/3">
         <center>
           <blockquote className="twitter-tweet" data-theme="dark">
             <p lang="en" dir="ltr">
