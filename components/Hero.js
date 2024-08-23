@@ -15,7 +15,7 @@ const   Hero = () => {
       </h1>
 
       <p className="mx-auto mt-4 max-w-xl sm:text-xl/relaxed">
-        Browse through the two projects of "Satellite image classification using tensor flow" and "Live Location of ISS with graphical representation using OpenNotify API"
+        Browse through the two projects of "Crater Detection on lunar and other planetary surfaces using deep learning (YOLO)" and "Live Location of ISS with graphical representation using OpenNotify API"
       </p>
 
       <div className="mt-8 flex flex-wrap justify-center gap-4">
