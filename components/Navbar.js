@@ -24,7 +24,7 @@ const Navbar = () => {
             <li>
               <a
                 className="text-gray-500 transition hover:text-gray-500/75 dark:text-white dark:hover:text-white/75"
-                href="https://www.linkedin.com/in/kvjharsha/"
+                href="/About"
               >
                 About
               </a>
